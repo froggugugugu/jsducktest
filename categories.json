@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Jsducktest.js",
+        "groups": [
+            {
+                "name": "subdir1",
+                "classes": [
+                    "class1_1",
+                    "class1_2"
+                ]
+            },
+            {
+                "name": "subdir2",
+                "classes": [
+                    "class2_1",
+                    "class2_2"
+                ]
+            }
+        ]
+    }
+]
+

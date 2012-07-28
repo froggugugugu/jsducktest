@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='Sample'>/**
+</span> * sample class JsDuckテスト用
+ * Guideからの引用
+ */
+Ext.define(&quot;Sample&quot;, {
+    extend: &quot;Hoge.AbstructSample&quot;,
+    mixins: {
+        observe: 'Ext.util.Observable',
+        fly: 'Fliable'
+    },
+
+    singleton: true,
+
+<span id='Sample-method-createId'>    /**
+</span>     * Returns a unique ID for use in HTML id attribute.
+     * @param {String/Number} nr A name or number of the ID.
+     * @param {String} [prefix=&quot;id-&quot;] The prefix for the ID.
+     * @return {String} the new ID
+     */
+    createId: function(nr, prefix){
+    },
+
+<span id='Sample-method-constructor'>    /**
+</span>     * Creates new Duck from proper duck egg.
+     * @param {DuckEgg} egg  Egg with DNA configuration for new duck.
+     */
+    constructor: function(egg) {
+    },
+
+<span id='Sample-event-hide'>    /**
+</span>     * @event
+     * Triggered after component gets hidden.
+     * @param {Ext.Component}
+     */
+    &quot;hide&quot;,
+
+<span id='Sample-cfg-size'>    /**
+</span>     * @cfg {Object} size Size of the item.
+     * @cfg {Number} [size.width=0]
+     * @cfg {Number} [size.height=0]
+     */
+    size: {width: 0, height: 0},
+
+<span id='Sample-cfg-cls'>    /**
+</span>     * @cfg
+     * CSS class names to apply for root element.
+     */
+    cls: [&quot;x-component&quot;, &quot;x-item&quot;],
+
+<span id='Sample-property-readOnly'>    /**
+</span>     * @property {Boolean} [readOnly=false]
+     * True when component is in read-only state.
+     */
+
+<span id='Sample-property-readOnly'>    /**
+</span>     * True when component is in read-only state.
+     */
+    readOnly: false
+
+}
+
+</pre>
+</body>
+</html>

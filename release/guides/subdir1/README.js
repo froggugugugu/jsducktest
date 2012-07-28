@@ -1,0 +1,1 @@
+Ext.data.JsonP.subdir1({"guide":"<p>ガイドサンプルコンテンツ１</p>\n\n<p>https://github.com/senchalabs/jsduck/wiki/Guide\n<p><img src=\"guides/subdir1/sample.png\" alt=\"fugafuga\"></p></p>\n","title":"サブディレクトリ1"});

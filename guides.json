@@ -1,0 +1,13 @@
+[{
+    "title": "タイトル指定：GuideRoot",
+    "items": [{
+        "name": "subdir1",
+        "title": "サブディレクトリ1",
+        "description": "解説1"
+    },{
+        "name": "subdir2",
+        "title": "サブディレクトリ2",
+        "description": "解説2"
+    }]
+}]
+

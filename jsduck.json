@@ -1,0 +1,15 @@
+{
+    "--title": "jsducktest!!!",
+    "--guides": "guides.json",
+    "--videos":"videos.json",
+    "--categories":"categories.json",
+    "--welcome": "index.html",
+    "--footer": "footer!!!",
+    "--head-html":"head",
+    "--body-html":"body",
+    "--warnings": ["-link", "-no_doc"],
+    "--":[
+        "src/Hoge/AbstructSample.js",
+        "src/sample.js"
+    ]
+}
